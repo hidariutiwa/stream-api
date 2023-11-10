@@ -21,7 +21,6 @@ function start() {
 
         try {
             const response = await dialogue.chatStream(req.body.input);
-            // res.set('Content-type', 'text/stream');
             res.write(JSON.stringify({
                 emotion: 'joy',
                 motion: 'explain'
