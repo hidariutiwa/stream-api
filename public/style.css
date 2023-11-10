@@ -1,0 +1,28 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+}
+
+#input-container {
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 0.8rem;
+    width: 80%;
+}
+
+#result-container {
+    
+}
+
+#main-container {
+    border-style: none;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #808080;
+    display: grid;
+    grid-template-rows: 2rem 1fr;
+    height: 300px;
+    margin: 50px auto;
+    width: 500px;
+}
